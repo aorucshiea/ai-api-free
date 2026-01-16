@@ -12,6 +12,17 @@ A comprehensive collection of free AI model APIs and providers.
 
 This repository maintains a curated list of free AI model APIs and providers that you can use without paying. Perfect for developers, researchers, and hobbyists who want to experiment with AI models without breaking the bank.
 
+### Why 1000+ Daily Requests Are Enough for Normal Use
+
+Even if someone uses AI 24/7 without eating or sleeping, with each request taking 1.5 minutes (90 seconds), they would only consume about 960 requests per day:
+
+```
+24 hours × 60 minutes × 60 seconds = 86,400 seconds per day
+86,400 seconds ÷ 90 seconds per request = 960 requests per day
+```
+
+Therefore, **1000+ daily requests are completely sufficient for normal use** - unless you're running multiple concurrent windows or automated scripts at scale.
+
 ### Official / Major Platforms (Direct Official API)
 
 | Provider | Free Models | Notes |
