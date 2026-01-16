@@ -99,6 +99,8 @@ If you calculate the number of times users press Enter to send, programmers are 
 
 | Provider | Description | Notes |
 |----------|-------------|-------|
+| **AI Tools (platform.aitools.cfd)** ⭐ | Free OpenAI-compatible API, supports DeepSeek-R1/V3, Qwen3, GLM models, no registration required - Sufficient for normal use |
+| **LM Speed (lmspeed.net)** ⭐ | Free AI API provider directory with 33+ free providers, includes unlimited free APIs - Sufficient for normal use |
 | **Free Qwen3** 🆓 | Completely free, no registration required - Sufficient for normal use |
 | **Free QwQ-32B** 🆓 | QwQ-32B distributed API, completely free, no registration, unlimited calls - Sufficient for normal use |
 | **Zhipu Z.AI** | Web chat interface, free web access to GLM-4.6/4.7 |

@@ -97,6 +97,8 @@
 
 | 供应商 | 描述 | 说明 |
 |--------|------|------|
+| **AI Tools (platform.aitools.cfd)** ⭐ | 免费 OpenAI 兼容 API，支持 DeepSeek-R1/V3、Qwen3、GLM 等模型，无需注册 - 正常人完全够用 |
+| **LM Speed (lmspeed.net)** ⭐ | 免费 AI API 供应商目录，包含 33+ 个免费供应商，含无限制免费 API - 正常人完全够用 |
 | **Free Qwen3** 🆓 | 完全免费，无需注册 - 正常人完全够用 |
 | **Free QwQ-32B** 🆓 | QwQ-32B 分布式 API，完全免费，无需注册，无调用上限 - 正常人完全够用 |
 | **智谱 Z.AI** | 网页聊天界面，免费网页访问 GLM-4.6/4.7 |
