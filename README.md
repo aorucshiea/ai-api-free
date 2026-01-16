@@ -23,6 +23,55 @@ Even if someone uses AI 24/7 without eating or sleeping, with each request takin
 
 Therefore, **1000+ daily requests are completely sufficient for normal use** - unless you're running multiple concurrent windows or automated scripts at scale.
 
+### Usage Patterns: Regular Users vs Programmers
+
+In the current AI application ecosystem, there are significant differences in usage patterns between regular users and programmers (AI coding users). This difference is mainly reflected in the definition of "requests" - whether it's the number of commands actively issued by users, or the number of API calls triggered in the background.
+
+The following is an analysis and estimation based on typical usage scenarios in 2025:
+
+#### 1. Regular Users Using AI
+
+Regular users typically use AI as a tool for search, writing, drawing, or daily life assistance.
+
+- **Use Cases**: Q&A, polishing emails/documents, translation, travel planning, image generation, simple math calculations, etc.
+- **Request Frequency (Estimated)**:
+  - **Light Users**: 5 - 15 times per day. Occasionally ask questions when encountering problems, or occasionally use AI to polish a piece of text.
+  - **Heavy Users (AI Natives)**: 30 - 60 times per day. These users are accustomed to using AI as their first-choice search engine, or even use AI for long-term conversation companionship or brainstorming.
+- **Characteristics**: Requests are usually discrete and non-continuous. One interaction may contain dozens of rounds of dialogue (context), but the number of core intents (prompts) is relatively small.
+
+#### 2. Programmers/AI Coding Users Using AI
+
+Programmers use AI (such as Cursor, GitHub Copilot, ChatGPT, and our Zhipu's CodeGeeX, etc.) much more frequently because programming is a high-density mental and text output activity.
+
+Here we need to distinguish between "explicit requests" and "implicit requests":
+
+**A. Explicit Requests (Active Questions/Commands)**
+
+Programmers actively input questions in IDEs (Integrated Development Environments) or chat windows, asking to generate code, explain bugs, or refactor.
+
+- **Estimated Frequency**: 40 - 100 times per day.
+  - When writing new features, may frequently ask to "write a function", "write a unit test".
+  - When debugging, will continuously paste error messages asking "why is this wrong", "how to fix this".
+
+**B. Implicit Requests (Auto-completion/Inline Suggestions)**
+
+This is the core function of modern AI coding tools (like Copilot). Every time a programmer types a few letters, AI will make a request in the background to predict the next word or code block.
+
+- **Estimated Frequency**: 200 - 1000 times per day or even higher.
+  - Although each request has very few tokens, due to the very frequent typing during programming, these "micro-requests" will be continuously triggered. Programmers may not realize it, but the background is always performing real-time completion through AI.
+
+#### Summary Comparison
+
+| User Type | Core Request Type | Estimated Daily Requests | Main Behavior Pattern |
+|-----------|-------------------|-------------------------|----------------------|
+| Regular Users | Explicit Dialogue | 10 - 30 times (average) | Ask questions, write articles, draw images, intermittent use |
+| Programmers | Explicit Commands | 40 - 100 times | Explain code, generate functions, Debug, continuous use |
+| Programmers | Implicit Completion | 500+ times | Auto-suggestions triggered by typing code, accompanying use |
+
+#### Conclusion
+
+If you calculate the number of times users press Enter to send, programmers are about 3 to 5 times that of regular users; if you calculate the number of API calls actually processed by the model (including auto-completion), programmers' usage may be 20 to 50 times that of regular users.
+
 ### Official / Major Platforms (Direct Official API)
 
 | Provider | Free Models | Notes |
